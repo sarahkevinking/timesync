@@ -7,10 +7,7 @@ meteor add flowhamster:timesync
 ```
 
 # How it works
-We define a pseudo-collection on the client `timesync`.
-The server defines an anonymous publication on `timesync` that triggers the
-`changed` observable an a 10 millisecond interval. When the publication stops the
-observable is cleared.
+We define a pseudo-collection on the client `timesync`. The server defines an anonymous publication on `timesync` that triggers the `changed` observable an a 10 millisecond interval. When the publication stops the interval is cleared.
 
 # API
 `Timesync.time()` returns the last received server time.

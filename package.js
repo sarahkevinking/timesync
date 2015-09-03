@@ -1,6 +1,6 @@
 Package.describe({
   name: 'flowhamster:timesync',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'Publish server time to client',
   // URL to the Git repository containing the source code for this package.
