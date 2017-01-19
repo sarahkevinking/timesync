@@ -4,7 +4,7 @@ Meteor.publish '', ->
   @added("timesync", 10, time: Date.now());
   id = Meteor.setInterval =>
     @changed("timesync", 10, time: Date.now());
-  , 1
+  , 10
 
   @ready()
 
